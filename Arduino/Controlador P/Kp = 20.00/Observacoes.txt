@@ -1,4 +1,0 @@
-Setpoint - 1000.0
-Overshoot - 1021.0
-Erro - Infinito (instabilidade)
-Tempo de acomodação - Instabilidade

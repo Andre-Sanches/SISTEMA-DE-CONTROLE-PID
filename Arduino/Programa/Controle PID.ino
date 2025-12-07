@@ -312,12 +312,12 @@ void EncoderRotativoBotao(){
 void VerificaValoresPID(){
 // Leitura dos potenciômetros
   valorpot_P = analogRead(pot_proporcional);
-  pot_P = map(valorpot_P, 0, 1023, 0, 20)/4.0;//Função map() para converter a escala de 0 a 1023 para a escala de 0 a 1 com incremento de 0.25
+  pot_P = map(valorpot_P, 0, 1023, 0, 20)/4.0;//Função map() para converter a escala de 0 a 1023 para a escala de 0 a 5 com incremento de 0.25
   
   proporcional = pot_P;
 
   valorpot_I = analogRead(pot_integral); 
-  pot_I = map(valorpot_I, 0, 1023, 0, 20)/10.0;//Função map() para converter a escala de 0 a 1023 para a escala de 0 a 1 com incremento de 0.10
+  pot_I = map(valorpot_I, 0, 1023, 0, 20)/10.0;//Função map() para converter a escala de 0 a 1023 para a escala de 0 a 2 com incremento de 0.10
   
   integral = pot_I;
 

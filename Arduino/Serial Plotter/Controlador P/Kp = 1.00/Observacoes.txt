@@ -1,0 +1,4 @@
+Setpoint - 1000.0
+Overshoot - 0.0
+Erro - -20.00
+Tempo de acomodação - 2.1 segundos
